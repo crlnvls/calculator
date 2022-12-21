@@ -1,3 +1,10 @@
+class Calculator {
+  constructor(previousValue, currentValue) {
+    this.previousValue = previousValue;
+    this.currentValue = currentValue;
+  }
+}
+
 const numberBtn = document.querySelectorAll(".number");
 const operatorBtn = document.querySelectorAll(".operator");
 const equalBtn = document.querySelector(".equal");
